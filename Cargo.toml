@@ -13,7 +13,7 @@ edition = "2021"
 authors = ["Max Carter <max@undivisible.dev>"]
 license = "ISC"
 rust-version = "1.88"
-repository = "https://github.com/tschk/aurorality"
+repository = "https://github.com/softwarecorporation/aurorality"
 
 [workspace.dependencies]
 serde = { version = "1", features = ["derive"] }

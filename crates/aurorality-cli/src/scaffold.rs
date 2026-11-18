@@ -183,7 +183,7 @@ fn aurorality_checkout(explicit: Option<&Path>) -> Result<PathBuf> {
     if !is_checkout {
         anyhow::bail!(
             "{} is not an aurorality checkout (expected Package.swift and crates/aurorality-core); \
-             pass --aurorality <path to a clone of https://github.com/tschk/aurorality>",
+             pass --aurorality <path to a clone of https://github.com/softwarecorporation/aurorality>",
             candidate.display()
         );
     }
